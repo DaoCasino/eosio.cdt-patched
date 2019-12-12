@@ -1,7 +1,7 @@
 FROM ubuntu:18.04 AS cdt-patched
 
 # command-line arguments
-ARG nproc=2
+ARG nproc
 
 # other variables
 ARG cdt_threads_patch=eosio.cdt-allow-set-make-threads.patch
