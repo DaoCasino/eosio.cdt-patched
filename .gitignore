@@ -1,0 +1,11 @@
+# general
+*.ninja
+*.py[co]
+*.sw[op]
+.DS_Store
+/.ccache/
+/.idea/
+/.vscode
+/tags
+\#*
+\.#*
