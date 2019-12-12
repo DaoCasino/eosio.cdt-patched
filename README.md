@@ -6,7 +6,13 @@ used in https://github.com/DaoCasino/DAOBET.contracts/ repository.
 # Usage
 
 ```
-$ docker build -t patched-cdt:latest --build-arg nproc=8 -f cicd/Dockerfile.ubuntu.patched-cdt  .
+$ docker build -t patched-cdt:latest -f Dockerfile.ubuntu.patched-cdt  .
+```
+
+To change the number of build threads, you can set `nproc` variable:
+
+```
+$ docker build -t patched-cdt:latest --build-arg nproc=8 -f Dockerfile.ubuntu.patched-cdt  .
 ```
 
 # Result
