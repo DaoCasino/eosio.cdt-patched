@@ -5,6 +5,14 @@ used in https://github.com/DaoCasino/DAOBET.contracts/ repository.
 
 # Usage
 
+## tl;dr
+
+```
+$ make docker-image
+```
+
+## Explained
+
 ```
 $ docker build -t patched-cdt:latest -f Dockerfile.ubuntu.patched-cdt  .
 ```
@@ -23,7 +31,7 @@ total 107M
 drwxr-xr-x   2 root root 4.0K Oct 29 21:25 bin
 drwxr-xr-x   2 root root 4.0K Apr 24  2018 boot
 drwxr-xr-x   5 root root  360 Dec 12 11:39 dev
--rw-r--r--   1 root root 107M Dec 12 11:28 eosio.cdt_1.6.3-1_amd64.deb
+-rw-r--r--   1 root root 107M Dec 12 11:28 eosio.cdt_1.6.1-1_amd64.deb
 drwxr-xr-x   1 root root 4.0K Dec 12 11:39 etc
 drwxr-xr-x   2 root root 4.0K Apr 24  2018 home
 drwxr-xr-x   1 root root 4.0K Dec 12 11:00 lib
