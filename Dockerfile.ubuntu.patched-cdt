@@ -27,7 +27,7 @@ RUN \
   echo " * tarball https://github.com/EOSIO/eosio.cdt/archive/v1.6.3.tar.gz doesn't contain" && \
   echo "   submodule sources (e.g. eosio_llvm), so may not be used for building CDT" && \
   echo " * shallow copying allows to reduce the amount of cloned data" && \
-  git clone --recurse-submodules -b v1.6.1 --shallow-since=2019-01-01 https://github.com/EOSIO/eosio.cdt.git && \
+  git clone --recurse-submodules -b v1.6.3 --shallow-since=2019-01-01 https://github.com/EOSIO/eosio.cdt.git && \
   \
   cd eosio.cdt/ && \
   \
